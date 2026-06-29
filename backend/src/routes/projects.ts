@@ -4,7 +4,7 @@ import * as projectsController from "../controllers/projects";
 const router = Router();
 
 // GET all projects
-router.get("/", projectsController.getAllProjects);
+router.get("/all", projectsController.getAllProjects);
 
 // GET project by id
 router.get("/:id", projectsController.getProjectById);
